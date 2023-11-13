@@ -22,7 +22,6 @@ def display_flights(flights):
         print(f"{i}. Voo {flight['flight_number']}: Destino - {flight['destination']}, Assentos disponíveis - {available_seats(flight)}")
 
 def main():
-    # Exemplo de criação de voos
     flights = [
         create_flight("AA123", "Nova York", 100),
         create_flight("BB456", "Los Angeles", 150),
